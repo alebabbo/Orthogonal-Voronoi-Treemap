@@ -70,8 +70,8 @@ d3.json("./data/flare.json", function(error, rootData)
   // subtractive(rootData);
 
   // form a d3 hierarchy
-  hierarchy = d3.hierarchy(rootData).sum(function(d){ return d.value; }); // for GDP: value
-  // hierarchy = d3.hierarchy(rootData).sum(function(d){ return d.size; }); // for flare: size
+  // hierarchy = d3.hierarchy(rootData).sum(function(d){ return d.value; }); // for GDP: value
+  hierarchy = d3.hierarchy(rootData).sum(function(d){ return d.size; }); // for flare: size
   
   //////////////////////////////
   // Begin treemap
