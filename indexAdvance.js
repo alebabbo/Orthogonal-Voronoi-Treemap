@@ -59,8 +59,8 @@ treemapContainer.append("path")
 
 ///////////////////////////////////////////  
 ///////////////////////////////////////////  
-d3.json("./data/globalEconomyByGDP.json", function(error, rootData)
-// d3.json("./data/flare.json", function(error, rootData)
+// d3.json("./data/globalEconomyByGDP.json", function(error, rootData)
+d3.json("./data/flare.json", function(error, rootData)
 {
   if (error) throw error;
   
